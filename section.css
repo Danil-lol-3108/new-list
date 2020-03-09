@@ -1,0 +1,34 @@
+section {
+    background-image: url(set0.jpg);
+    background-size: cover;
+      
+}
+.news_container {
+    opacity: 0.6;
+    background-color: aliceblue;  
+}
+
+.news_list {
+    overflow: scroll;
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 200px 50px 0px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.news_list::-webkit-scrollbar {
+    display: none;
+}
+.news {
+    background-color: white;
+    margin-top: 15px;
+    width: 100%;
+    
+}
+.news>img {
+    float: left;
+    width: 28%;
+}
+.content {    
+    text-overflow: ellipsis;
+}

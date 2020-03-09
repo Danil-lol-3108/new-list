@@ -1,0 +1,39 @@
+header>*{
+    display:inline-block;
+    width: 49%;
+}
+header>h1{
+    font-family: Catstack;
+    text-align: center;
+    font-size: 50px
+}
+.rert {
+    width: 100%;
+    height: 70px;
+    position: inherit;
+    bottom: 0;
+    background-color: green;
+    
+}
+.topnav {
+background-color: #333;
+overflow: hidden;
+}
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 27px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
